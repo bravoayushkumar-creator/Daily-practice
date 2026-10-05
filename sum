@@ -1,0 +1,15 @@
+public class Main{
+    public static void main(String[]args){
+        int di=3454;
+        int sum=0;
+        while(di>0){
+            int val=di%10;
+            sum+=val;
+            di=di/10;
+            
+            
+        }
+        System.out.println(sum);
+        
+    }
+}

@@ -1,0 +1,20 @@
+public class Main{
+    public static void main(String []args){
+        int []arr={24,56,67,6,87,657,6};
+        int even =0;
+        int odd=0;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]%2==0){
+                System.out.println("elemnts is even >>"+arr[i]);
+                even++;
+                
+            }
+            else{
+                System.out.println("elelmnts is odd >>"+arr[i]);
+                odd++;
+            }
+        }
+        System.out.println("count of even is"+even);
+        System.out.println("count of odd is"+odd);
+    }
+}

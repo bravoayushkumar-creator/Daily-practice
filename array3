@@ -1,0 +1,12 @@
+public class Main{
+    public static void main(String[]args){
+        float[]arr={23,23,45,56,67,67,654,654.0f};
+        for(int i=0;i<arr.length;i++){
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[i]==arr[j]){
+                    System.out.println("the duplicastes elelments is  "+arr[i]);
+                }
+            }
+        }
+    }
+}
